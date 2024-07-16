@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="./Favicon.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Wizard Cafe</title>
+</head>
+
+<body class="bg-main">
+    <header>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/img/Logo.jpg" alt="Wizard cafe logo" />
+              </a>
+              <button
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav ms-lg-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"
+                      >Inicio</a
+                    >
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/Conocenos.html">Conocenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/Eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+    </header>
+
+    <main>
+      <div class="bannerPrincipal col-lg-12">
+        <img class=""  src="./assets/img/Panel.jpg" alt="Panel grande que dice wizard cafe">
+      </div>
+
+      <section class="container pt-5">
+        <div class="row align-items-lg-center mb-5">
+            <div class="col-12 col-lg-5">
+                <h1>Wizard Cafe</h1>
+                <p class="fs-5">
+                  ¡Bienvenidos a nuestra cafetería temática de Harry Potter! 
+                  Disfruta de eventos mágicos y emocionantes, con actividades de Magic: The Gathering
+                   y esculturas de Dungeons & Dragons. Un lugar perfecto para fanáticos de la fantasía
+                    y la aventura. ¡Te esperamos! 
+                </p>
+            </div>
+
+            <div class="col 12 col-lg-7">
+                <img  class="img-fluid" src="./assets/img/foto mesada local.jpg" alt="" class="ImgInicio">
+            </div>
+        </div>
+      </section>
+
+
+      <section class="m-5">
+        <div class="container">
+          <h2 class="text-lg-center pt-2 m-5">Eventos Del Local</h2>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="./assets/img/evento HP 1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p class="botonInicio"> <a href="./pages/Eventos.html">Harry Potter</a></p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./assets/img/Foto Magic.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p class="botonInicio"><a href="./pages/Eventos.html">Magic</a></p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./assets/img/Evento D&D esculturas.webp" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p class="botonInicio"><a href="./pages/Eventos.html">D&D</a></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+
+      <section class="container pt-5">
+        <div class="row align-items-lg-center mb-5">
+            <div class="col-12 col-lg-5">
+                <h2>Nuestra Carta</h1>
+                <p class="fs-5">
+                  Explora nuestro menú mágico haciendo clic en el botón de abajo. 
+                  Te invitamos a disfrutar de nuestras especialidades, como la deliciosa
+                   Cerveza de Mantequilla, los crujientes Dedos de Troll y las irresistibles 
+                   Snitch Doradas. ¡Cada bocado te transportará al mundo de la fantasía y la 
+                   aventura!
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <div class="mb-4 botonMenu">
+                      <a href="./pages/Menu.html" target="_blank"><strong>Menu</strong></a>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-7">
+                <img  class="img-fluid" src="./assets/img/Foto comida 3.jpg" alt="" class="ImgInicio">
+            </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="p-3">
+        <div class="container icons-footer text-center">
+          <nav class="d-flex justify-content-evenly">
+            <a href="https://facebook.com" target="_blank"
+              ><i class="bi bi-facebook fs-3"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank"
+              ><i class="bi bi-twitter fs-3"></i
+            ></a>
+            <a href="https://github.com" target="_blank"
+              ><i class="bi bi-github fs-3"></i
+            ></a>
+            <a href="https://youtube.com" target="_blank"
+              ><i class="bi bi-youtube fs-3"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="bi bi-instagram fs-3"></i
+            ></a>
+            <a href="https://m.me/user" target="_blank"
+              ><i class="bi bi-messenger fs-3"></i
+            ></a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5215512345678"
+              target="_blank"
+              ><i class="bi bi-whatsapp fs-3"></i
+            ></a>
+          </nav>
+          <small class="text-white">
+            &copy; Desarollado por Fernando Acosta 2024 | Hecho con fines educativos
+          </small>
+        </div>
+      </footer>
+
+        <!-- Info@wizardcafe.com.ar
+            Lope de Vega 1783, C.A.B.A., Argentina
+            011 1234 5679
+            @wizardcafe   
+            -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
