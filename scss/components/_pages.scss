@@ -34,6 +34,11 @@
     color: #d6af2f;
   }
 
+ .video iframe {
+  width: 800px;
+  height: 500px;
+ }
+
   .botonMenu a {
     display: inline-block;
     background-color: #990100;
@@ -43,4 +48,54 @@
     font-weight: 700;
     padding: 10px 20px;
     text-decoration: none;
+  }
+
+  /*Formulario*/
+
+  
+  .Map iframe {
+    border: 2px solid #990100;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .formularioContacto {
+    margin-left: 16px;
+    margin-right: -16px;
+    background-color: #fff;
+  }
+
+  .formularioContacto {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .formularioContacto input[type=text],
+  .formularioContacto input[type=email],
+  .formularioContacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formularioContacto textarea {
+    resize: vertical;
+  }
+  
+  .formularioBotones input[type=reset],
+  .formularioBotones input[type=submit] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6af2f;
+    color: #fff;
+  }
+  
+  .formilarioBotones input[type=reset] {
+    background-color: #bbb;
+    color: #fff;
   }
