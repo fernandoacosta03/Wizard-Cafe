@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Menu - Wizard Cafe</title>
 </head>
-<body>
+<body class="bg-main">
     <header>
         <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
             <div class="container">
@@ -53,156 +53,182 @@
     </header>
 
     <main>
-        <div class="MenuTitl">
+      <div class="container">
+        <div class="row col-12 text-center">
             <h1>Nuestra Carta</h1>
-            <img src="../assets/img/foto 3.jpg" alt="foto de cafe con galletitas y gente de fondo jugando a las cartas">
+            <div class="col-12 text-center">
+              <img class="img-fluid" src="../assets/img/foto-cafe-menu.jpg " alt="foto de cafe con galletitas y gente de fondo jugando a las cartas">
+            </div>  
+          </div>
+      </div>
+
+
+      <section class="container mt-5">
+        <div class="row col-12">
+          <div class=" pt-2">
+            <h2 class="text-center">Especiales!!</h2>
+          </div>
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img/Menu especial 4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/Menu especial 3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/Menu especial 2.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
+      </section>
 
-        <section class="Especiales">
-            <h2>Especiales</h2>
+        <hr>
 
-            <div class="Especial1">
-                <h3>Combo 1</h3>
-                <img src="../assets/img/Menu especial 4.jpg" alt="">
-                
-            </div>
-
-            <div class="Especial2">
-                <h3>Combo 2</h3>
-                <img src="../assets/img/Menu especial 2.webp" alt="">
-                
-            </div>
-
-            <div class="Especial3">
-                <h3>Combo 3</h3>
-                <img src="../assets/img/Menu especial 3.jpeg" alt="">
-                
-            </div>
-        </section>
-        <div class="CartaMenu">
-            <div class="Entradas">
-                <hr>
-                <h2>Entradas</h2>
-                <div>
+      <section class="container">
+        <div class="row col-12 text-center">
+            <h2 class="mb-2">Entradas</h2>
+            <div>
+                <div class="platos mb-2">
                     <h3>- Dedos de Troll</h3>
                     <p>Palitos de queso envueltos en masa de hojaldre y horneados.</p>
-                    <sub>Precio: $1200</sub>
+                    <strong><sub>Precio: $1200</sub></strong>
                 </div>
-                
-                <div>
+              
+                <div class="platos mb-2">
                     <h3>- Mini Empanadas de Calabaza</h3>
                     <p>Empanadas rellenas de calabaza y especias mágicas.</p>
-                    <sub>Precio: $1000</sub>
+                    <strong><sub>Precio: $1000</sub></strong>
                 </div>
                 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Alitas de Dragon Picantes</h3>
                     <p>Alitas de pollo marinadas en salsa picante y asadas.</p>
-                    <sub>Precio: $1500</sub>
+                    <strong><sub>Precio: $1500</sub></strong>
                 </div>
                 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Brochetas de Elfo Domestico</h3>
                     <p>Brochetas de pollo y vegetales con una salsa mágica de miel y mostaza.</p>
-                    <sub>Precio: $1300</sub>
+                    <strong><sub>Precio: $1300</sub></strong>
                 </div>
                 
-                <div>
+                <div class="platos mb-2">
                     <h3> -Pociones de Queso y Ajo</h3>
                     <p>Bollos de pan rellenos de queso y ajo, servidos con salsa de tomate encantada.</p>
-                    <sub>Precio: $1100</sub>
+                    <strong><sub>Precio: $1100</sub></strong>
                 </div>
                 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Escobas de Pan con Jamon y Queso</h3>
                     <p>Pan de molde en forma de escoba con jamón y queso derretido.</p>
-                    <sub>Precio: $900</sub>
+                    <strong><sub>Precio: $900</sub></strong>
                 </div>
             </div>
+      </section>
 
-            <div class="Postres">
-                <hr>
-                <h2>Postres</h2>
+      <hr>
 
-                <div>
+      <section class="container">
+            <div class="row col-12 text-center">
+                <h2 class="mb-2">Postres</h2>
+
+                <div class="platos mb-2">
                     <h3>- Cerveza de Mantequilla Flotante</h3>
                     <p>Bebida de cerveza de mantequilla con helado de vainilla flotante.</p>
-                    <sub>Precio: $800</sub>
+                    <strong><sub>Precio: $800</sub></strong>
                 </div>
                 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Galletas de Calabaza</h3>
                     <p>Galletas suaves de calabaza con un toque de canela y nuez moscada.</p>
-                    <sub>Precio: $600</sub>
+                    <strong><sub>Precio: $600</sub></strong>
                 </div>
 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Tarta de Melaza de Hagrid</h3>
                     <p>Tarta dulce de melaza servida con una bola de helado de vainilla.</p>
-                    <sub>Precio: $1400</sub>
+                    <strong><sub>Precio: $1400</sub></strong>
                 </div>
 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Helado de Ron Weasley</h3>
                     <p>Helado de ron con pasas, bañado en chocolate caliente.</p>
-                    <sub>Precio: $900</sub>
+                    <strong><sub>Precio: $900</sub></strong>
                 </div>
 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Ranas de Chocolate</h3>
                     <p>Figuras de chocolate con forma de rana, rellenas de crema de menta.</p>
-                    <sub>Precio: $700</sub>
+                    <strong><sub>Precio: $700</sub></strong>
                 </div>
 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Piedras Filosofales de Fresa</h3>
                     <p>Tartaletas de fresa con un brillo mágico.</p>
-                    <sub>Precio: $800</sub>
+                    <strong><sub>Precio: $800</sub></strong>
                 </div>
                 
             </div>
+      </section>      
 
-            <div class="Cafes">
-                <hr>
-                <h2>Cafes o Bebidas</h2>
-                <div>
+      <hr>
+
+      <section class="container mb-4">
+            <div class="row col-12 text-center">
+                <h2 class="mb-2">Cafes o Bebidas</h2>
+
+                <div class="platos mb-2">
                     <h3>- Café Expreso de la Sala Común</h3>
                     <p>Un café expreso intenso y aromático.</p>
-                    <sub>Precio: $600</sub>
+                    <strong><sub>Precio: $600</sub></strong>
                 </div>
                 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Cappuccino Mágico de la Torre de Astronomía</h3>
                     <p>Cappuccino con un toque de canela y chocolate.</p>
-                    <sub>Precio: $700</sub>
+                    <strong><sub>Precio: $700</sub></strong>
                 </div>
 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Latte de la Biblioteca Prohibida</h3>
                     <p>Café con leche espumada y un toque de vainilla.</p>
-                    <sub>Precio: $650</sub>
+                    <strong><sub>Precio: $650</sub></strong>
                 </div>
 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Té de Hierbas de la Profesora Sprout</h3>
                     <p>Infusión de hierbas relajantes con un toque de limón.</p>
-                    <sub>Precio: $500</sub>
+                    <strong><sub>Precio: $500</sub></strong>
                 </div>
 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Chocolate Caliente de los Tres Hermanos</h3>
                     <p>Chocolate caliente cremoso con malvaviscos encantados.</p>
-                    <sub>Precio: $750</sub>
+                    <strong><sub>Precio: $750</sub></strong>
                 </div>
 
-                <div>
+                <div class="platos mb-2">
                     <h3>- Jugo de Calabaza de Hogwarts</h3>
                     <p>Jugo natural de calabaza con especias dulces.</p>
-                    <sub>Precio: $550</sub>
+                    <strong><sub>Precio: $550</sub></strong>
                 </div> 
+
             </div>
-        </div>
+
+      </section>
     </main>
+
+
     <footer class="p-3">
         <div class="container icons-footer text-center">
           <nav class="d-flex justify-content-evenly">
