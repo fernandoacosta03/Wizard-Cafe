@@ -15,14 +15,14 @@
   }
 
   .carousel-inner {
-    border: 5px solid #610510;
+    border: 5px solid $bg-color;
     border-radius: 5px;
   }
 
   .botonInicio{
     display: inline-block;
-    background-color: #990100;
-    color: #d6af2f;
+    background-color: $third-color;
+    color: $icon-color;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 700;
@@ -31,7 +31,7 @@
 
   .botonInicio a {
     text-decoration: none;
-    color: #d6af2f;
+    color: $icon-color;
   }
 
  .video iframe {
@@ -41,8 +41,8 @@
 
   .botonMenu a {
     display: inline-block;
-    background-color: #990100;
-    color: #d6af2f;
+    background-color: $third-color;
+    color: $icon-color;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 700;
@@ -54,7 +54,7 @@
 
   
   .Map iframe {
-    border: 2px solid #990100;
+    border: 2px solid $third-color;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
   }
@@ -62,7 +62,7 @@
   .formularioContacto {
     margin-left: 16px;
     margin-right: -16px;
-    background-color: #fff;
+    background-color: $form-color;
   }
 
   .formularioContacto {
@@ -91,13 +91,13 @@
     margin-right: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #d6af2f;
-    color: #fff;
+    background-color: $icon-color;
+    color: $form-color;
   }
   
   .formilarioBotones input[type=reset] {
     background-color: #bbb;
-    color: #fff;
+    color: $form-color;
   }
 
   

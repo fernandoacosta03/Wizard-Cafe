@@ -16,35 +16,35 @@
   }
 
   body {
-    color: #050505;
+    color: $second-color;
   }
 
   header {
-    background-color: #610510; /* rgb(79, 159, 96)*/
+    background-color: $bg-color; /* rgb(79, 159, 96)*/
     padding: 20px;
   }
 
   footer {
-    background-color: #610510; /* rgb(79, 159, 96)*/
+    background-color: $bg-color; /* rgb(79, 159, 96)*/
     padding: 20px;
   }
 
   
 
   .container h1 {
-    color: #c09e30;
+    color: $first-alpha-color;
     font-family: 'Poppins', sans-serif;
     font-size: 700;
   }
 
   .container h2 {
-    color: #c09e30;
+    color: $first-alpha-color;
     font-family: 'Poppins', sans-serif;
     font-size: 700;
   }
 
   .bg-main {
-    background-color: #dfc4c4;
+    background-color: $bg-main;
   }
 
   .platos p{
@@ -55,9 +55,9 @@
   .platos sub{
     font-family: 'Inter', sans-serif;
     font-size: 100;
-    border: 5px solid #610510;
+    border: 5px solid $bg-color;
     border-radius: 5px;
     padding: 5px;
-    background-color: #c09e30;
+    background-color: $first-alpha-color;
     color: #050505;
   }
